@@ -99,23 +99,24 @@ h2 {
 }
 
 .contato {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    max-width: 30vw;
+    display: inline-block;
     font-size:calc(1.2vw + 1rem);
     line-height: 3rem;
     text-align: center;
-
-    
 }
 
 .contato a {
     display: inline-block;
+    text-align: justify;
     text-decoration: solid;
     color: rgb(28, 3, 54);
 }
-
+.contato a:hover{
+    background-color: #afd7f4;
+    border-radius: 20px;
+    transition:  0.3s;
+}
 .navbar {
     margin: 0;
     overflow: auto;
