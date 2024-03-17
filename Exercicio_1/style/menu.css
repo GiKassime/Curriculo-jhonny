@@ -78,7 +78,6 @@ h2 {
 .botao {
 
     display: inline-block;
-    padding: 10px 20px;
     font-size:calc(1.0vw + 12.74px);
     background-color: #47b0fc;
     color: white;
@@ -95,7 +94,7 @@ h2 {
 .botao-container {
     border: 0;
     margin: 1rem 0 0 0;
-    padding: 0;
+    padding: 1.0vw;
 }
 
 .contato {
