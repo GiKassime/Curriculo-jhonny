@@ -24,7 +24,7 @@ main {
 }
 
 div {
-    border: 2px solid black;
+   
     padding: 40px 10px;
     background-color: aliceblue;
     margin: 1.5rem 3rem 1.5rem 3rem;
@@ -42,14 +42,14 @@ header {
 
 header img {
     border: 2px solid black;
-    min-width: calc(1.0vw + 120px);
+    min-width: calc(0.1vw + 120px);
     max-width: calc(5vw + 120px);
     background-color: #FFF6E9;
 }
 
 h2 {
     margin-bottom: 2%;
-    font-size:calc(1.0vw + 1.4rem);
+    font-size:calc(0.9vw + 1.2rem);
 
 }
 
@@ -63,10 +63,9 @@ h2 {
 
 .lista {
     font-size: calc(0.3vw + 1rem);
-
     text-align: left;
     list-style: disc;
-    margin-left: 2%;
+    margin-left: 3%;
     line-height: 1.6rem;
 
 }
@@ -80,7 +79,7 @@ h2 {
     display: inline-block;
     padding: 10px 20px;
     font-size:calc(1.0vw + 12.74px);
-    background-color: #0e7ecd;
+    background-color: #47b0fc;
     color: white;
     border-radius: 20px;
     cursor: pointer;
@@ -101,7 +100,7 @@ h2 {
 .contato {
     max-width: 30vw;
     display: inline-block;
-    font-size:calc(1.2vw + 1rem);
+    font-size:calc(1.0vw + 1rem);
     line-height: 3rem;
     text-align: center;
 }
@@ -113,28 +112,30 @@ h2 {
     color: rgb(28, 3, 54);
 }
 .contato a:hover{
+    transform: scale(1.2);
     background-color: #afd7f4;
     border-radius: 20px;
     transition:  0.3s;
 }
 .navbar {
+    list-style: none;
     margin: 0;
-    overflow: auto;
+    overflow: hidden;
     top: 0;
     left: 0;
     width: 100%;
-
-    background-color: #5FBDFF;
+    padding: calc(1.5vh);
+    background-image: linear-gradient(#5fbcff, #8371f9);
 }
 
 /* Estilos para os links da barra de navegação */
-.navbar a {
-    font-size:calc(1.5vw + 1rem);
+.navbar li a {
+    font-size:calc(1.0vw + 0.8rem);
     display: block;
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding:calc(0.1vh + 9px) calc(0.9vw + 14px);
     text-decoration: none;
 }
 
